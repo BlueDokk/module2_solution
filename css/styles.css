@@ -66,16 +66,17 @@ div>h2{
 /*******Responsive Layout*******/
 
 
-@media (min-width:992px){
-    .col-4,.col-12{float: left;}
-    .col-4{
+@media (min-width: 992px){
+    .col-4, .col-12{
         width: 33.33%;
+        float: left;
     }
+}
 
-@media (min-width:768px) and (max-width:991px){
+@media (min-width: 768px) and (max-width: 991px){
     
     .col-4{
-        width: 33.33%;
+        width: 50%;
         float: left;
     }
     .col-12{
@@ -84,7 +85,7 @@ div>h2{
     }
 }
 
-@media (max-width:767px){
+@media (max-width: 767px){
     
     .col-4{
         width: 100%;
